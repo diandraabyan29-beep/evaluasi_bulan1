@@ -1,0 +1,398 @@
+/* =========================
+   Navbar
+========================= */
+.navbar {
+    background: rgba(14, 21, 40);
+/
+}
+
+
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ea9d66;
+}
+
+.logo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  width: 150px;
+  border-radius: 100%;
+}
+
+.ul1 {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.ul1 a {
+  color: rgb(243, 239, 239);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.ul1 a:hover {
+  color: #5b5c5c;
+}
+
+.div1 {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  margin: 4px 0;
+  background-color: rgb(23, 21, 21);
+  transition: 0.4s;
+}
+
+/* =========================
+   Hero Section
+========================= */
+.seaction1 {
+  background-color: #d5944b;
+  padding: 120px;
+  color: black;
+  text-align: center;
+}
+
+.hero-seaction {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  background: white;
+  color: #d4a650;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s;
+  animation: fadeInUp 1s ease 0.4s both;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* =========================
+   General Section
+========================= */
+.section {
+  background: white;
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* =========================
+   Profile Section
+========================= */
+.profile-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.profile-text h3 {
+  font-size: 1.8rem;
+  color: #eabc66;
+  margin-bottom: 1rem;
+}
+
+.profile-text p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.profile-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
+
+.stat-item {
+  padding: 2rem;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #f8f9ff, #e8eeff);
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ea9966;
+  display: block;
+}
+
+/* =========================
+   Projects Section
+========================= */
+.projects {
+  background: #f8f9ff;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.project-icon {
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.project-card p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.project-status {
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 0.9rem;
+  color: white;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+}
+
+.view-details {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 8px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  background: #000;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.view-details:hover {
+  background: #c4770b;
+}
+
+/* =========================
+   Contact Section
+========================= */
+.contact {
+  background: linear-gradient(135deg, #ea9266 0%, #df660a 100%);
+  color: white;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.form-group textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  background: white;
+  color: #eab166;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* =========================
+   Footer
+========================= */
+.footer {
+  padding: 3rem 0 1rem;
+  background: #e2831d;
+  color: rgb(2, 2, 2);
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-section h3 {
+  color: #eab166;
+  margin-bottom: 1rem;
+}
+
+.footer-section p {
+  color: #0b0b0b;
+  margin-bottom: 0.5rem;
+}
+
+.footer-bottom {
+  padding-top: 2rem;
+  text-align: center;
+  color: #a0aec0;
+  border-top: 1px solid #4a5568;
+}
+
+/* =========================
+   Responsive Layout (Mobile)
+========================= */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .div1 {
+    display: flex;
+    margin-top: 1rem;
+  }
+
+  .ul1 {
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(16, 15, 40);
+    padding: 1rem 0;
+    display: none;
+  }
+
+  .ul1.active {
+    display: flex;
+  }
+
+  .ul1 li {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  .seaction1 {
+    padding: 60px 20px;
+  }
+
+  .profile-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .profile-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 1.5rem;
+  }
+
+  .contact-form {
+    padding: 0 1rem;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .cta-button,
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+  }
+}
