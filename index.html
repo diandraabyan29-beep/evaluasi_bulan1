@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zewold-pembuat web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon"><img src="assets/logo3.jpeg" alt="logo" width="200px" height="100px"></div>
+            </div>
+            <div class="div1">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="ul1">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#profile">Profil</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+     </nav>
+
+     <section id="home" class="seaction1">
+        <div class="hero-seaction">
+            <h1>Zewold</h1>
+            <p>membantu masyarakat dalam membuat website</p>
+              <a href="#profile" class="cta-button">Pelajari Lebih Lanjut</a>
+        </div>
+     </section>
+
+    <section id="profile" class="seaction">
+        <div class="container">
+            <h2 class="section-title">Tentang Zewold Company</h2>
+            <div class="profile-content">
+                <div class="profile-text">
+                    <h3>Visi Kami</h3>
+                    <p>Zewold adalah startup teknologi yang berdedikasi untuk menciptakan solusi digital inovatif yang dapat mengubah cara hidup masyarakat. Kami fokus pada pengembangan aplikasi yang user-friendly, scalable, dan berdampak positif.</p>
+                    
+                    <h3>Misi Kami</h3>
+                    <p>Menghadirkan teknologi terdepan yang dapat diakses oleh semua kalangan, mulai dari aplikasi mobile hingga platform web yang revolusioner. Kami berkomitmen untuk selalu mengutamakan kualitas dan kepuasan pengguna.</p>
+                    
+                    <h3>Tim Kami</h3>
+                    <p>Didirikan oleh para profesional berpengalaman di bidang teknologi, TechVision memiliki tim yang solid dengan keahlian di berbagai domain seperti AI/ML, mobile development, dan sistem terdistribusi.</p>
+                </div>
+                <div class="profile-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span>Proyek Selesai</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100K+</span>
+                        <span>Pengguna Aktif</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">15</span>
+                        <span>Tim Ahli</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="projects" class="project">
+  <div class="container">
+    <h2 class="title">Proyek yang Pernah Kami Kerjakan</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-icon">🚆</div>
+        <h3>Keretaki</h3>
+        <p>Aplikasi mobile untuk membeli tiket kereta dimanapun tanpa repot mencari penjual.</p>
+        <span class="project-status">In Development</span>
+        <a href="project/kerataki.html" class="view-details">Lihat Detail</a>
+      </div>
+      <div class="project-card">
+        <div class="project-icon">🚕</div>
+        <h3>Go Tax</h3>
+        <p>Aplikasi untuk memudahkan masyarakat dalam mencari taksi.</p>
+        <span class="project-status">Beta Testing</span>
+        <a href="project/gotax.html" class="view-details">Lihat Detail</a>
+      </div>
+    </div>
+  </div>≈
+</section>
+
+        <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>zewold</h3>
+                    <p>Startup teknologi terdepan yang fokus pada inovasi digital untuk masa depan yang lebih baik.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Lokasi</h3>
+                    <p>Jl. Malioboro No. 123<br>
+                    Yogyakarta, DIY 55271<br>
+                    Indonesia</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <p>Email: info@zewold.id</p>
+                    <p>Telepon: +62 123 456 789</p>
+                    <p>Instagram: @zewod_studio</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Zewold Maou73. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+  const menuToggle = document.querySelector('.div1');
+  const navLinks = document.querySelector('.ul1');
+
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+  
+</body>
+</html>
